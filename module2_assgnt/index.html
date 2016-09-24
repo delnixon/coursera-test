@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Module 2</title>
+<style>
+
+* {
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: "Comic Sans MS", sans-serif;
+  text-align: justify;
+  font-size: 14px;
+}
+
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 3em;
+}
+ p {
+    background: #a6a6a6;
+    border: 2px solid black;
+    margin: 10px 15px;
+    padding: 60px 10px 10px 10px;
+ }
+
+.chicken {
+  position: relative;
+  margin: 10px 15px;
+  float: right;
+  border: 2px solid black;
+  padding: 5px;
+  background: #d59898;
+  width: 150px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.beef {
+  position: relative;
+  margin: 10px 15px;
+  float: right;
+  border: 2px solid black;
+  padding: 5px;
+  background: #c14543;
+  color: white;
+  width: 150px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.sushi {
+  position: relative;
+  margin: 10px 15px;
+  float: right;
+  border: 2px solid black;
+  padding: 5px;
+  background: #e5d198;
+  width: 150px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.row {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .col-md-4 {
+    float: left;
+  }
+  
+  .col-md-4 {
+    width: 33.33%;
+  }
+  
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-sm-12, .col-sm-6 {
+    float: left;
+  }
+
+  .col-sm-12 {
+    width: 100%;
+  }
+  
+  .col-sm-6 {
+    width: 50%;
+  }
+  
+}
+
+@media (max-width: 767px) {
+  .col-xs-12 {
+    float: left;
+    margin: 0 20px;    
+  }
+
+  .col-xs-12 {
+    width: 90%;
+  }  
+ }
+
+</style>
+</head>
+<body>
+<h1>Our Menu</h1>
+
+<div class="row">
+  <div class="col-md-4 col-sm-6 col-xs-12"> <font class="chicken">Chicken</font> <p>Lorem ipsum dolor sit amet, pri ex summo qualisque, scripta maiorum prodesset ad vel. Ne quo delectus constituam, cetero tacimates eu cum, sit ne wisi error tantas. Eros dolor ullamcorper vim te, eam id sumo nostrud eruditi, pro nostrud invenire ad.</p></div>
+  <div class="col-md-4 col-sm-6 col-xs-12"><font class="beef">Beef</font><p>Lorem ipsum dolor sit amet, pri ex summo qualisque, scripta maiorum prodesset ad vel. Ne quo delectus constituam, cetero tacimates eu cum, sit ne wisi error tantas. Eros dolor ullamcorper vim te, eam id sumo nostrud eruditi, pro nostrud invenire ad.</p></div>
+  <div class="col-md-4 col-sm-12 col-xs-12">
+  <font class="sushi">Sushi</font><p>Lorem ipsum dolor sit amet, pri ex summo qualisque, scripta maiorum prodesset ad vel. Ne quo delectus constituam, cetero tacimates eu cum, sit ne wisi error tantas. Eros dolor ullamcorper vim te, eam id sumo nostrud eruditi, pro nostrud invenire ad.</p></div>
+</div>
+
+</body>
+</html>
