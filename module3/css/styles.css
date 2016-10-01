@@ -1,0 +1,100 @@
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #eee;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #555;
+  border-radius: 0;
+  border: 2px solid #000;
+}
+
+.navbar-brand h1 { /* Title */
+  color: #eee;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list { /* Dropdown list */
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+#nav-list a {
+  color: #eee;
+  font-weight: normal;
+  text-align: center;
+  border-bottom: 2px solid #000;
+}
+
+#nav-list a:hover {
+  background: #e7e7e7;
+  color: #333;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000;
+}
+
+h2 { /* Our menu */
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1.8em;
+}
+
+h3 { /* Chicken Beef Sushi */
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+section {
+  background: #bbb;
+  padding: 15px;
+  height: auto;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+a:link, a:visited, a:active {
+  color: #690912;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #f9f9f9;
+}
+/* END HEADER */
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand h1 { /* Title */
+    padding: 0;
+    font-size: 4vw; /* 1vw = 1% of viewport width */
+  }
+  
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  /* End Header */
+
+}
